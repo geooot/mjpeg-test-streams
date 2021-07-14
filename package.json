@@ -1,0 +1,17 @@
+{
+  "name": "mjpeg-test-streams",
+  "version": "1.0.0",
+  "description": "Server that generates MJPEG streams",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repo": "https://github.com/geooot/mjpeg-test-streams",
+  "author": "geooot",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "mjpeg-server": "^0.3.1"
+  }
+}
